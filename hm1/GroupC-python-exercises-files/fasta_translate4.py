@@ -27,4 +27,8 @@ def codonHard2dict(table_hard):
 
     return codon_dict
 
-codonHard2dict('codon_table_hard.txt')
+
+
+
+if __name__ == "__main__":
+    codonHard2dict('codon_table_hard.txt')
