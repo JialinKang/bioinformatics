@@ -29,18 +29,37 @@ def codonTable2dict(table_path):
     return codondict
 
 
-def dna2pro(codon, gene):
+def dna2pro(codon, gene, fafilename):
+    '''
+    translate gene FASTA file and print in FASTA format
+
+    Parameter
+    ----------------
+    codon:dict
+    the codon table dictionary form {'codon':'protein'}
+    gene:dict
+    the gene dictionary form {'gene name':'DNA sequence'}
+    fafilename:str
+    the name of protein sequence file
+    ----------------
+    '''
+    f = open(fafilename, 'a')
     for seq in gene.values():
         protein = ''
         for frag in range(0, len(seq), 3):
-            if len(seq)-frag < 3:
+            if len(seq)-    frag < 3:
                 break
             else:
                 protein = protein + codon[seq[frag:frag+3]]
         print(protein)
+        f.write(protein)
+        f.write('\n')
+
+    f.close()
+        
 
 
 if __name__ == "__main__":
     codon = codonTable2dict('./codon_table.txt')
     genedict = fafile2dict()
-    dna2pro(codon, genedict)
+    dna2pro(codon, genedict, 'gene2protein.fa')
