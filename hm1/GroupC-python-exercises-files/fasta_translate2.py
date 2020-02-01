@@ -18,7 +18,7 @@ def codonTable2dict(table_path):
     ------------------------
     '''
     f = open(table_path, 'r')
-    line = f.readline()
+    line = f.readline().replace('\n','')
     codondict = {}
     while line != '':
         codondict[line[0:3]] = line[4]
@@ -47,7 +47,7 @@ def dna2pro(codon, gene, fafilename):
     for seq in gene.values():
         protein = ''
         for frag in range(0, len(seq), 3):
-            if len(seq)-    frag < 3:
+            if len(seq)-frag < 3:
                 break
             else:
                 protein = protein + codon[seq[frag:frag+3]]

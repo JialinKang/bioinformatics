@@ -11,7 +11,7 @@ def fafile2dict():
     the single gene dict, {descriptor_str:sequence_str}
     --------------
     '''
-    line = sys.stdin.readline()
+    line = sys.stdin.readline().replace('\n','')
     seq = {}
     while line != '':
         if line[0] == '>':
