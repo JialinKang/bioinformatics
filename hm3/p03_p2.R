@@ -37,5 +37,7 @@ for(i in seq(0, 0.9, 0.33)){
 
 pred <- prediction(predplot$predictied, predplot$tables)
 perf <- performance(pred,"tpr","fpr")
+pdf('./3-corss.pdf')
 plot(perf,col="grey82",lty=3)
 plot(perf, lwd=3,avg="vertical",spread.estimate="boxplot",add=T)
+dev.off()

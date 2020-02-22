@@ -13,8 +13,9 @@ svm_2 <- svm(make ~., traindata)
 pd_scores <- predict(svm_2, testdata)
 pred_2 <- prediction(pd_scores, testdata$type)
 perf_2 <- performance(pred_2, 'tpr', 'fpr')
+pdf('bioinformatics/hm3/svm_8020.pdf')
 plot(perf_2)
-
+dev.off()
 # shuffle the dataset
 shuffle = sample(1:4601, 4601)
 spam_shuffle = spam[shuffle,]
@@ -48,6 +49,8 @@ for(i in seq(0, 0.9, 0.1)){
 
 pred <- prediction(predplot$predictied, predplot$tables)
 perf <- performance(pred,"tpr","fpr")
+pdf('./k-corss.pdf')
 plot(perf,col="grey82",lty=3)
 plot(perf, lwd=3,avg="vertical",spread.estimate="boxplot",add=T)
+dev.off()
 
