@@ -24,5 +24,3 @@ for (i in 1:length(df$pvalue)){
 }
 
 write.table(df, file = paste("./", args$output, sep = ""), sep= '\t',quote = FALSE, row.names = FALSE, col.names = TRUE)
-
-# print(args[1])
