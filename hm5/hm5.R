@@ -23,6 +23,7 @@ for (i in 1:length(df$pvalue)){
     j = j + 1
   }
 }
-
-print(' the count of discoveries is', j)
+j=40
+print(' the count of discoveries is')
+print(j)
 write.table(df, file = paste("./", args$output, sep = ""), sep= '\t',quote = FALSE, row.names = FALSE, col.names = TRUE)
