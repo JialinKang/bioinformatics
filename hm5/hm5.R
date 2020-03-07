@@ -1,6 +1,6 @@
-args=commandArgs(T)
+args <- commandArgs(trailingOnly = TRUE)
 
-csv_input = read.csv(args[2], header = T, sep='\t')
+csv_input = read.csv(paste("./", args[2], sep = ""), header = T, sep='\t')
 
 df = as.data.frame(csv_input)
 
@@ -16,4 +16,6 @@ for (i in 1:length(df$pvalue)){
   }
 }
 
-write.table(df, file = args[4], sep= '\t',quote = FALSE, row.names = FALSE, col.names = TRUE)
+write.table(df, file = paste("./", args[4], sep = ""), sep= '\t',quote = FALSE, row.names = FALSE, col.names = TRUE)
+
+# print(args[1])
