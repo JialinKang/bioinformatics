@@ -17,10 +17,12 @@ df$pvalue = sorted
 
 df$qvalue = df$pvalue*length(df$pvalue)/df$index
 
+j = 0
 for (i in 1:length(df$pvalue)){
   if (df$qvalue[i] <= 0.05){
-    print(df$qvalue[i])
+    j = j + 1
   }
 }
 
+print(' the count of discoveries is', j)
 write.table(df, file = paste("./", args$output, sep = ""), sep= '\t',quote = FALSE, row.names = FALSE, col.names = TRUE)
