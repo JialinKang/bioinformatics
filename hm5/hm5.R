@@ -1,6 +1,13 @@
-args <- commandArgs(trailingOnly = TRUE)
+library(getopt);
 
-csv_input = read.csv(paste("./", args[2], sep = ""), header = T, sep='\t')
+
+command=matrix(c( 
+  'input', 'i', 2,'character', '',
+  'output', 'o', 2, 'character', ''),byrow=T,ncol=5)
+args=getopt(command)
+# args <- commandArgs(trailingOnly = TRUE)
+
+csv_input = read.csv(paste("./", args$input, sep = ""), header = T, sep='\t')
 
 df = as.data.frame(csv_input)
 
@@ -16,6 +23,6 @@ for (i in 1:length(df$pvalue)){
   }
 }
 
-write.table(df, file = paste("./", args[4], sep = ""), sep= '\t',quote = FALSE, row.names = FALSE, col.names = TRUE)
+write.table(df, file = paste("./", args$output, sep = ""), sep= '\t',quote = FALSE, row.names = FALSE, col.names = TRUE)
 
 # print(args[1])
