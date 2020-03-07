@@ -1,0 +1,237 @@
+# CRAVAT Report
+# Result database: null
+# Report section (tab): variant
+# Load filters: {"sample":{"require":["Sample1"],"reject":[]},"genes":[],"variant":{"operator":"and","rules":[{"column":"base__coding","test":"hasData","negate":false},{"column":"clinvar__id","test":"hasData"}]},"smartfilter":{"base":{"coding":false},"clinvar":{"hasdata":null}}}
+# Table filters:
+Variant_Annotation										ClinVar	gnomAD	PharmGKB	VCF_Info								
+Chrom	Position	Ref_Base	Alt_Base	Note	Coding	Hugo	Sequence_Ontology	Protein_Change	Samples	Disease_Names	Global_AF	Chemical	Phred	VCF_filter	Zygosity	Alternate_reads	Total_reads	Variant_AF	Haplotype_block ID	Haplotype_strand ID
+2283	1043889	G	A		Yes	AGRN	missense	R622Q	Sample1;unknown	Myasthenic syndrome, congenital, 8|not provided	0		0.00;0.00	PASS;PASS	het;het		36;34			
+2291	1044367	G	A		Yes	AGRN	missense	E728K	Sample1;unknown	Myasthenic syndrome, congenital, 8	0		147.57;147.57	PASS;PASS	het;het		19;17			
+9486	3752792	G	A		Yes	CCDC27	missense	R104K	Sample1;unknown	not provided	0.006		593.52;593.52	PASS;PASS	het;het		46;39			
+39135	16990158	A	G		Yes	ATP13A2	missense	M794T	Sample1;unknown	Parkinson disease 9	0		82.53;82.53	PASS;PASS	hom;het		15;33			
+39172	16992042	-	TTATTATTATTATTG		Yes	ATP13A2	inframe insertion	_698_	Sample1	History of neurodevelopmental disorder|not provided				PASS	het		84			
+97204	55046535	C	T		Yes	PCSK9	missense	P138S	Sample1;unknown	Familial hypercholesterolemia 3	0		1254.40;1254.40	PASS;PASS	hom;hom		39;37			
+100930	56912611	-	T		Yes	C8A	frameshift insertion	_530_	Sample1;unknown	Complement component 8 deficiency type 1			1863.66;1863.66	PASS;PASS	hom;hom		57;55			
+160476	93998027	-	A		Yes	ABCA4	frameshift insertion	_2188_	Sample1;unknown	not provided			142.92;142.92	PASS;PASS	het;het		30;37			
+195752	114716126	C	G		Yes	NRAS	missense	G12A	Sample1;unknown	Acute myeloid leukemia|Multiple myeloma|Cutaneous melanoma|Non-small cell lung cancer|Neoplasm of the large intestine|Malignant melanoma of skin|Myelodysplastic syndrome|Malignant neoplasm of body of uterus|Adenocarcinoma of stomach|Myelodysplastic syndrome progressed to acute myeloid leukemia|not provided			653.90;653.90	PASS;PASS	het;het		42;40			
+317319	197104150	A	-		Yes	ASPM	frameshift deletion	_1701_	Sample1;unknown	not provided			2313.46;2313.46	PASS;PASS	hom;hom		64;67			
+357794	223112698	TTT	-		Yes	TLR5	inframe deletion	_111_	Sample1;unknown	not provided			75.18;75.18	PASS;PASS	het;het		20;51			
+382975	236751520	A	-		Yes	ACTN2	frameshift deletion	_569_	Sample1;unknown	not provided			409.60;409.60	PASS;PASS	het;het		39;37			
+384555	237445489	-	T		Yes	RYR2	frameshift insertion	_420_	Sample1;unknown	Long QT syndrome|Cardiovascular phenotype|not provided			297.51;297.51	PASS;PASS	het;het		50;52			
+385567	237772097	TT	-		Yes	RYR2	frameshift deletion	_3881_	Sample1;unknown	Cardiomyopathy|not provided			297.69;297.69	PASS;PASS	hom;het		18;33			
+453234	18261299	G	T		Yes	CACNB2	synonymous	R10R	Sample1;unknown	not specified	0		857.82;857.82	PASS;PASS	het;het		60;56			
+512950	43116608	A	-		Yes	RET	frameshift deletion	_721_	Sample1;unknown	Multiple endocrine neoplasia, type 2			518.71;518.71	PASS;PASS	het;het		26;32			
+517184	45440444	-	T		Yes	ALOX5	frameshift insertion	_332_	Sample1;unknown	not provided			749.50;749.50	PASS;PASS	het;het		54;48			
+594027	86681714	C	T		Yes	LDB3	synonymous	G200G	Sample1;unknown	not specified			594.17;594.17	PASS;PASS	het;het		43;41			
+594051	86687079	C	T		Yes	LDB3	stop gained	Q234*	Sample1;unknown	Myofibrillar myopathy, ZASP-related			261.29;261.29	PASS;PASS	het;het		37;28			
+614337	99813127	-	C		Yes	ABCC2	frameshift insertion	_693_	Sample1	not provided			529.45	PASS	het		42			
+683792	193112	C	T		Yes	SCGB1C1	missense	R5C	Sample1;unknown	not provided	0.269		358.40;358.40	PASS;PASS	het;het		84;79			
+683794	193863	T	C		Yes	SCGB1C1	synonymous	C69C	Sample1;unknown	not provided	0.633		1438.12;1438.12	PASS;PASS	het;het		107;102			
+685219	534242	A	G		Yes	HRAS	synonymous	H27H	Sample1;unknown	Costello syndrome|Rasopathy|not specified|not provided	0.319		1822.41;1822.41	PASS;PASS	hom;hom		55;52			
+685506	637335	G	C		Yes	DRD4	missense	G11R	Sample1;unknown	not provided	0.008		796.22;796.22	PASS;PASS	het;het		46;44			
+685911	824789	T	C		Yes	PNPLA2	missense	L481P	Sample1;unknown	Neutral lipid storage disease with myopathy|not specified	0.683		1260.10;1260.10	PASS;PASS	hom;hom		38;37			
+685912	824988	TGCA	-		Yes	PNPLA2	frameshift deletion	_213_	Sample1;unknown	Neutral lipid storage disease with myopathy	0.677		993.09;993.09	PASS;PASS	hom;hom		36;32			
+691357	2885195	-	AGAA		Yes	CDKN1C	frameshift insertion	_99_	Sample1;unknown	Beckwith-Wiedemann syndrome			281.00;281.00	PASS;PASS	hom;het		21;29			
+726979	19188267	AA	-		Yes	CSRP3	frameshift deletion	_50_	Sample1;unknown	Hypertrophic cardiomyopathy|not specified|Cardiovascular phenotype|Dilated Cardiomyopathy, Dominant|not provided			1025.19;1025.19	PASS;PASS	het;het		43;45			
+753335	32428502	G	A		Yes	WT1	missense	S255L	Sample1;unknown	Wilms tumor, aniridia, genitourinary anomalies, and mental retardation syndrome|Drash syndrome|Frasier syndrome|Wilms tumor 1	0		721.39;721.39	PASS;PASS	het;het		56;53			
+778976	46898595	G	A		Yes	LRP4	synonymous	D253D	Sample1;unknown	not provided	0		1939.65;1939.65	PASS;PASS	hom;hom		60;55			
+820830	68406812	-	CT		Yes	LRP5	frameshift insertion	_697_	Sample1;unknown	Vitreoretinopathy			940.38;940.38	PASS;PASS	hom;hom		38;31			
+820836	68410063	-	AT		Yes	LRP5	frameshift insertion	_747_	Sample1;unknown	not provided			309.60;309.60	PASS;PASS	het;het		35;37			
+836394	77156019	-	A		Yes	MYO7A	frameshift insertion	_133_	Sample1;unknown	not provided			494.85;494.85	PASS;PASS	het;het		51;50			
+882071	102842452	T	A		Yes	MMP3	missense	M160L	Sample1;unknown	not provided	0		2058.31;2058.31	PASS;PASS	hom;hom		60;59			
+892200	108267325	A	G		Yes	ATM	missense	E874G	Sample1;unknown	Ataxia-telangiectasia syndrome			462.90;462.90	PASS;PASS	het;het		41;36			
+908308	118168617	A	G		Yes	SCN2B	missense	Y69H	Sample1;unknown	Cardiovascular phenotype|not provided	0		742.05;742.05	PASS;PASS	het;het		47;46			
+967907	11884472	A	G		Yes	ETV6	missense	Y346C	Sample1;unknown	not specified			2045.89;2045.89	PASS;PASS	hom;hom		60;58			
+989768	23543369	G	C		Yes	SOX5	stop gained	S538*	Sample1;unknown	Lamb-shaffer syndrome			1173.23;1173.23	PASS;PASS	het;het		66;58			
+992832	25227349	C	T		Yes	KRAS	missense	A59T	Sample1;unknown	Neoplasm of the large intestine|Bladder cancer, transitional cell, somatic			841.00;841.00	PASS;PASS	het;het		53;50			
+1035946	49090023	A	-		Yes	DHH	frameshift deletion	_343_	Sample1;unknown	46, XY sex reversal, type 7			130.67;130.67	PASS;PASS	het;het		21;25			
+1039928	51721563	-	T		Yes	SCN8A	frameshift insertion	_551_	Sample1;unknown	not provided			374.68;374.68	PASS;PASS	hom;het		16;33			
+1045072	54283883	C	T		Yes	HNRNPA1	missense	P327S	Sample1;unknown	Chronic progressive multiple sclerosis			1169.71;1169.71	PASS;PASS	het;het		61;61			
+1119855	102866663	A	-		Yes	PAH	frameshift deletion	_148_	Sample1;unknown	not provided			593.30;593.30	PASS;PASS	het;het		48;46			
+1130635	109595078	-	TTATTATTATTATTA		Yes	MVK	inframe insertion	_312_	Sample1;unknown	not provided			493.71;493.71	PASS;PASS	hom;het		20;47			
+1135688	114366223	AC	-		Yes	TBX5	frameshift deletion	_308_	Sample1;unknown	Holt-Oram syndrome			255.42;255.42	PASS;PASS	het;het		31;38			
+1145672	120739163	AAC	-		Yes	ACADS	inframe deletion	_351_	Sample1;unknown	not provided			1542.03;1542.03	PASS;PASS	hom;hom		54;60			
+1171535	131941472	CCCGGATGCTGGCTGGGGATCA	-		Yes	PUS1	frameshift deletion	_242_	Sample1;unknown	Mitochondrial myopathy and sideroblastic anemia			641.80;641.80	PASS;PASS	het;het		28;26			
+1173362	132642215	AC	-		Yes	POLE	frameshift deletion	_1712_	Sample1;unknown	Hereditary cancer-predisposing syndrome|not specified|not provided			269.44;269.44	PASS;PASS	het;het		25;24			
+1173363	132642242	-	ACACACCACT		Yes	POLE	frameshift insertion	_1703_	Sample1;unknown	Colorectal cancer, susceptibility to, 12			120.55;120.55	PASS;PASS	het;het		22;26			
+1173366	132642586	-	ACAC		Yes	POLE	frameshift insertion	_1625_	Sample1;unknown	Hereditary cancer-predisposing syndrome|Colorectal cancer, susceptibility to, 12|not provided			829.19;829.19	PASS;PASS	hom;hom		34;30			
+1173380	132643881	T	-		Yes	POLE	frameshift deletion	_1416_	Sample1;unknown	Hereditary cancer-predisposing syndrome|Facial dysmorphism, immunodeficiency, livedo, and short stature|not specified|not provided			1160.31;1160.31	PASS;PASS	hom;hom		41;40			
+1210682	32337219	T	-		Yes	BRCA2	frameshift deletion	_955_	Sample1;unknown	Hereditary breast and ovarian cancer syndrome			626.86;626.86	PASS;PASS	hom;het		27;45			
+1210683	32337461	G	A		Yes	BRCA2	missense	E1036K	Sample1;unknown	Hereditary cancer-predisposing syndrome			1663.67;1663.67	PASS;PASS	hom;hom		49;48			
+1210685	32338845	ACTC	-		Yes	BRCA2	frameshift deletion	_1497_	Sample1;unknown	Breast-ovarian cancer, familial 2			1609.60;1609.60	PASS;PASS	hom;hom		51;50			
+1210688	32339570	T	-		Yes	BRCA2	frameshift deletion	_1739_	Sample1;unknown	Breast-ovarian cancer, familial 2			1480.93;1480.93	PASS;PASS	hom;hom		48;49			
+1210689	32340194	-	A		Yes	BRCA2	frameshift insertion	_1947_	Sample1;unknown	Hereditary breast and ovarian cancer syndrome|Hereditary cancer-predisposing syndrome|Breast-ovarian cancer, familial 2|not specified|Breast and/or ovarian cancer|not provided			1794.79;1794.79	PASS;PASS	hom;hom		52;52			
+1237867	48045720	C	-		Yes	NUDT15	frameshift deletion	_139_	Sample1;unknown	Thiopurines, poor metabolism of, 2			952.67;952.67	PASS;PASS	hom;hom		30;30			
+1379009	23383233	-	A		Yes	MYH6	frameshift insertion	_1885_	Sample1	Familial hypertrophic cardiomyopathy 14				PASS	het		10			
+1389615	28768010	G	A		Yes	FOXG1	missense	R244H	Sample1;unknown	not provided			689.97;689.97	PASS;PASS	het;het		50;44			
+1455925	69952291	A	-		Yes	SMOC1	frameshift deletion	_85_	Sample1;unknown	not provided			245.96;245.96	PASS;PASS	het;het		29;29			
+1462908	74239654	G	A		Yes	VSX2	synonymous	G31G	Sample1;unknown	not provided	0		118.19;118.19	PASS;PASS	het;het		43;41			
+1465445	75766316	-	A		Yes	TTLL5	frameshift insertion	_669_	Sample1;unknown	not provided			217.17;217.17	PASS;PASS	het;het		30;29			
+1493075	91881387	C	T		Yes	FBLN5	synonymous	T339T	Sample1;unknown	not provided	0		1294.89;1294.89	PASS;PASS	hom;hom		39;36			
+1498168	94379529	T	C		Yes	SERPINA1	missense	K334E	Sample1;unknown	Alpha-1-antitrypsin deficiency			960.64;960.64	PASS;PASS	het;het		66;63			
+1518248	105464753	-	A		Yes	MTA1	frameshift insertion	_475_	Sample1;unknown	not provided			939.45;939.45	PASS;PASS	hom;het		34;40			
+1615334	67164932	G	A		Yes	SMAD3	missense	G82R	Sample1;unknown	not provided			1689.12;1689.12	PASS;PASS	hom;hom		52;47			
+1630545	77018466	-	ATAT		Yes	PSTPIP1	frameshift insertion	_49_	Sample1;unknown	Pyogenic arthritis, pyoderma gangrenosum and acne|not specified|not provided			25.04;25.04	PASS;PASS	het;het		29;39			
+1656034	90794347	-	T		Yes	BLM	frameshift insertion	_1067_	Sample1;unknown	not provided			406.23;406.23	PASS;PASS	hom;het		24;39			
+1656061	90798272	G	A		Yes	BLM	missense	R1098K	Sample1;unknown	Bloom syndrome	0		558.34;558.34	PASS;PASS	het;het		46;44			
+1660169	92979209	A	G		Yes	CHD2	synonymous	V934V	Sample1;unknown	not specified	0		1493.48;1493.48	PASS;PASS	hom;hom		42;41			
+1660189	92981390	G	A		Yes	CHD2	missense	R1000Q	Sample1;unknown	not provided			535.15;535.15	PASS;PASS	het;het		49;41			
+1685592	2044797	-	TTT		Yes	NTHL1	inframe insertion	_128_	Sample1;unknown	not provided			126.19;126.19	PASS;PASS	het;het		40;41			
+1685707	2085295	C	T		Yes	TSC2	synonymous	I1545I	Sample1;unknown	Hereditary cancer-predisposing syndrome|Tuberous sclerosis 2	0		242.80;242.80	PASS;PASS	het;het		40;39			
+1688413	3757859	A	-		Yes	CREBBP	frameshift deletion	_1187_	Sample1;unknown	not provided			148.06;148.06	PASS;PASS	het;het		27;32			
+1709023	10916400	C	T		Yes	CIITA	synonymous	D1002D	Sample1;unknown	not provided	0		1835.72;1835.72	PASS;PASS	hom;hom		56;55			
+1716553	13947991	-	AAAG		Yes	ERCC4	frameshift insertion	_799_	Sample1;unknown	Cockayne syndrome|Xeroderma pigmentosum, group F|XFE progeroid syndrome|Fanconi anemia, complementation group Q|not specified|not provided			178.97;178.97	PASS;PASS	hom;het		12;20			
+1719167	15727033	-	CACACACA		Yes	MYH11	frameshift insertion	_1232_	Sample1;unknown	Aortic aneurysm, familial thoracic 4			174.46;174.46	PASS;PASS	het;het		29;42			
+1746898	31466364	ACACACACACACAC	-		Yes	ARMC5	frameshift deletion	_856_	Sample1;unknown	not provided			536.00;536.00	PASS;PASS	hom;het		24;33			
+1806675	68357125	-	T		Yes	PRMT7	frameshift insertion	_660_	Sample1;unknown	not provided			1190.77;1190.77	PASS;PASS	hom;het		41;54			
+1807327	68801863	-	T		Yes	CDH1	frameshift insertion	_119_	Sample1;unknown	Hereditary diffuse gastric cancer			310.32;310.32	PASS;PASS	het;het		47;49			
+1831429	81365406	G	A		Yes	GAN	missense	R477Q	Sample1;unknown	Giant axonal neuropathy	0		1829.50;1829.50	PASS;PASS	hom;hom		57;49			
+1849678	87936357	A	-		Yes	CA5A	frameshift deletion	_32_	Sample1;unknown	Carbonic anhydrase VA deficiency, hyperammonemia due to			447.70;447.70	PASS;PASS	het;het		51;55			
+1868983	4956628	-	TTTG		Yes	ENO3	frameshift insertion	_375_	Sample1;unknown	Glycogen storage disease type 13			705.58;705.58	PASS;PASS	hom;het		36;48			
+1870215	5559165	-	AG		Yes	NLRP1	frameshift insertion	_511_	Sample1;unknown	not provided			230.50;230.50	PASS;PASS	het;het		42;34			
+1874427	7674913	C	T		Yes	TP53	synonymous	L206L	Sample1;unknown	Hereditary cancer-predisposing syndrome|not provided	0		1534.28;1534.28	PASS;PASS	hom;hom		46;43			
+1874431	7676071	TTTGTTTG	-		Yes	TP53	frameshift deletion	_97_	Sample1;unknown	Ovarian Neoplasms			682.19;682.19	PASS;PASS	hom;het		28;39			
+1875469	8232992	-	T		Yes	CTC1	frameshift insertion	_620_	Sample1;unknown	Dyskeratosis congenita			1018.57;1018.57	PASS;PASS	hom;hom		41;40			
+1880231	10521286	-	A		Yes	MYH2	frameshift insertion	_1941_	Sample1	not provided				PASS	het		33			
+1893116	17222528	-	A		Yes	FLCN	frameshift insertion	_251_	Sample1;unknown	Multiple fibrofolliculomas			712.77;712.77	PASS;PASS	hom;het		26;30			
+1902386	21312245	G	A		Yes	MAP2K3	missense	R293H	Sample1;unknown	not provided	0.491		820.12;820.12	PASS;PASS	het;het		154;139			
+1918093	31169905	T	-		Yes	NF1	frameshift deletion	_165_	Sample1;unknown	Hereditary cancer-predisposing syndrome|Neurofibromatosis, type 1			302.25;302.25	PASS;PASS	het;het		21;47			
+1918392	31374130	G	A		Yes	NF1	missense	R2832H	Sample1;unknown	Hereditary cancer-predisposing syndrome|Neurofibromatosis, type 1	0		632.30;632.30	PASS;PASS	het;het		41;39			
+1936133	42909416	G	-		Yes	G6PC	frameshift deletion	_187_	Sample1;unknown	Glycogen storage disease type 1A			1006.70;1006.70	PASS;PASS	hom;hom		34;32			
+1936236	43091693	-	ATATATA		Yes	BRCA1	frameshift insertion	_1280_	Sample1;unknown	Hereditary cancer-predisposing syndrome			633.39;633.39	PASS;PASS	het;het		36;39			
+1936242	43092502	G	A		Yes	BRCA1	missense	P1010L	Sample1;unknown	Hereditary breast and ovarian cancer syndrome			398.04;398.04	PASS;PASS	het;het		55;51			
+1936244	43092696	CAA	-		Yes	BRCA1	inframe deletion	_945_	Sample1;unknown	Hereditary breast and ovarian cancer syndrome|Hereditary cancer-predisposing syndrome|Breast-ovarian cancer, familial 1|not provided			477.84;477.84	PASS;PASS	hom;het		31;39			
+1936249	43094529	-	A		Yes	BRCA1	frameshift insertion	_335_	Sample1;unknown	Hereditary cancer-predisposing syndrome|Breast-ovarian cancer, familial 1			149.73;149.73	PASS;PASS	het;het		35;34			
+1936253	43097260	T	C		Yes	BRCA1	missense	K193E	Sample1;unknown	Hereditary breast and ovarian cancer syndrome			670.20;670.20	PASS;PASS	het;het		54;50			
+1938757	46034247	A	G		Yes	KANSL1	synonymous	F860F	Sample1;unknown	Syndromic intellectual disability|not provided	0.143		1829.83;1829.83	PASS;PASS	hom;hom		51;50			
+1943005	48728428	-	AAAAAA		Yes	HOXB13	inframe insertion	_56_	Sample1;unknown	Prostate cancer, hereditary, 1			189.16;189.16	PASS;PASS	hom;het		12;14			
+1961812	61776479	T	C		Yes	BRIP1	synonymous	Q673Q	Sample1;unknown	not provided			611.62;611.62	PASS;PASS	het;het		53;48			
+1965090	63972573	-	A		Yes	SCN4A	frameshift insertion	_90_	Sample1;unknown	not provided			344.18;344.18	PASS;PASS	het;het		49;55			
+1979975	72122802	-	T		Yes	SOX9	frameshift insertion	_172_	Sample1;unknown	Camptomelic dysplasia			437.02;437.02	PASS;PASS	het;het		47;45			
+1997614	80108787	C	G		Yes	GAA	missense	Q429E	Sample1	not specified|Dilated cardiomyopathy|not provided	0.001			PASS	het		10			
+1997618	80108804	C	T		Yes	GAA	synonymous	G434G	Sample1	not provided	0			PASS	het		9			
+2060797	33743237	-	GTGTGTGTGTGTGTGTGT		Yes	ASXL3	inframe insertion	_1130_	Sample1	not provided			678.12	PASS	het		46			
+2096447	55275670	-	A		Yes	TCF4	frameshift insertion	_349_	Sample1;unknown	Pitt-Hopkins syndrome			485.39;485.39	PASS;PASS	hom;het		29;35			
+2148550	920642	T	A		Yes	KISS1R	missense	L364H	Sample1;unknown	not specified	0.794		1275.02;1275.02	PASS;PASS	hom;hom		48;36			
+2170570	10141148	G	-		Yes	DNMT1	frameshift deletion	_1101_	Sample1;unknown	Dementia, Deafness, and Sensory Neuropathy|not provided			1337.14;1337.14	PASS;PASS	hom;hom		47;43			
+2170858	10378365	-	A		Yes	TYK2	frameshift insertion	_15_	Sample1;unknown	not specified			408.83;408.83	PASS;PASS	hom;het		18;22			
+2171744	11030800	GT	-		Yes	SMARCA4	frameshift deletion	_1215_	Sample1;unknown	Hereditary cancer-predisposing syndrome|Rhabdoid tumor predisposition syndrome 2			306.98;306.98	PASS;PASS	het;het		33;44			
+2217072	35039214	C	T		Yes	SCN1B	synonymous	Y182Y	Sample1;unknown	Brugada syndrome 5|not specified	0		839.80;839.80	PASS;PASS	het;hom		39;37			
+2246368	50399385	-	C		Yes	POLD1	frameshift insertion	_73_	Sample1;unknown	Colorectal cancer 10			975.61;975.61	PASS;PASS	hom;hom		30;28			
+2267828	277003	A	G		Yes	ACP1	missense	Q106R	Sample1;unknown	ACID PHOSPHATASE 1, SOLUBLE, A/B POLYMORPHISM OF	0.309		420.69;420.69	PASS;PASS	het;het		51;50			
+2315830	25282442	GGGGG	-		Yes	DNMT3A	frameshift deletion	_148_	Sample1;unknown	Tatton-Brown-rahman syndrome			390.27;390.27	PASS;PASS	het;het		33;34			
+2317539	26558511	T	-		Yes	OTOF	frameshift deletion	_21_	Sample1;unknown	Deafness, autosomal recessive 9			369.11;369.11	PASS;PASS	het;het		42;42			
+2321051	29228928	-	TGTG		Yes	ALK	frameshift insertion	_924_	Sample1;unknown	Neuroblastoma 3			543.80;543.80	PASS;PASS	hom;hom		30;23			
+2342905	39067717	-	AAAC		Yes	SOS1	frameshift insertion	_42_	Sample1;unknown	Rasopathy			116.74;116.74	PASS;PASS	het;het		34;38			
+2357415	47060872	-	A		Yes	TTC7A	frameshift insertion	_752_	Sample1;unknown	not provided			528.11;528.11	PASS;PASS	het;het		38;36			
+2358241	47475192	T	-		Yes	MSH2	frameshift deletion	_643_	Sample1;unknown	Hereditary nonpolyposis colon cancer|Hereditary cancer-predisposing syndrome|Turcot syndrome|Ovarian cancer|Muir-TorrÃ© syndrome|Lynch syndrome I|not provided			631.43;631.43	PASS;PASS	hom;het		22;33			
+2358293	47482837	ATATA	-		Yes	MSH2	frameshift deletion	_898_	Sample1;unknown	Hereditary nonpolyposis colon cancer|Hereditary cancer-predisposing syndrome			754.06;754.06	PASS;PASS	het;het		50;50			
+2358299	47482934	A	G		Yes	MSH2	missense	I930M	Sample1;unknown	Hereditary nonpolyposis colon cancer|Lynch syndrome I	0		641.47;641.47	PASS;PASS	hom;hom		27;16			
+2358571	47801045	ACAC	-		Yes	MSH6	frameshift deletion	_1021_	Sample1;unknown	Hereditary nonpolyposis colon cancer|Hereditary cancer-predisposing syndrome|not specified|not provided			697.90;697.90	PASS;PASS	het;het		35;45			
+2361601	49922131	-	TATATA		Yes	NRXN1	inframe insertion	_1446_	Sample1;unknown	Pitt-Hopkins-like syndrome 2			167.23;167.23	PASS;PASS	het;het		30;30			
+2396247	73572339	T	-		Yes	ALMS1	frameshift deletion	_3488_	Sample1;unknown	not provided			128.89;128.89	PASS;PASS	het;het		35;31			
+2445217	98133840	C	-		Yes	VWA3B	frameshift deletion	_297_	Sample1	not provided				PASS	het		115			
+2494071	127643047	G	A		Yes	LIMS2	missense	R153C	Sample1	not specified|not provided	0.005			PASS	het		15			
+2503590	132645123	C	A		Yes	GPR39	synonymous	A293A	Sample1;unknown	not provided	0		579.93;579.93	PASS;PASS	het;het		43;43			
+2532873	148469265	AA	-		Yes	MBD5	frameshift deletion	_441_	Sample1;unknown	not provided			149.77;149.77	PASS;PASS	het;het		36;35			
+2536636	151603754	G	A		Yes	NEB	synonymous	L4360L	Sample1;unknown	not provided			1412.52;1412.52	PASS;PASS	hom;hom		42;40			
+2564167	169259062	T	-		Yes	LRP2	frameshift deletion	_826_	Sample1;unknown	Donnai Barrow syndrome|not provided			569.90;569.90	PASS;PASS	het;het		45;46			
+2570235	172491461	T	-		Yes	ITGA6	frameshift deletion	_1015_	Sample1;unknown	Epidermolysis bullosa junctionalis with pyloric atresia			224.44;224.44	PASS;PASS	het;het		19;36			
+2579964	178535110	T	-		Yes	TTN	frameshift deletion	_33835_	Sample1;unknown	not provided			1227.16;1227.16	PASS;PASS	hom;hom		39;41			
+2580043	178571624	-	T		Yes	TTN	frameshift insertion	_24837_	Sample1;unknown	not provided			1454.05;1454.05	PASS;PASS	hom;hom		46;51			
+2580086	178601784	-	C		Yes	TTN	frameshift insertion	_18436_	Sample1;unknown	Limb-girdle muscular dystrophy, type 2J|Dilated cardiomyopathy 1G|not specified			1410.92;1410.92	PASS;PASS	hom;hom		45;38			
+2580117	178611029	C	T		Yes	TTN	missense	G17034S	Sample1;unknown	not provided	0		1580.09;1580.09	PASS;PASS	hom;hom		47;46			
+2580348	178714517	-	A		Yes	TTN	frameshift insertion	_8753_	Sample1;unknown	not specified			1257.73;1257.73	PASS;PASS	hom;hom		52;47			
+2580395	178746069	TCTA	-		Yes	TTN	frameshift deletion	_5443_	Sample1;unknown	not provided			150.17;150.17	PASS;PASS	het;het		30;41			
+2580436	178775156	TA	-		Yes	TTN	frameshift deletion	_2185_	Sample1	Limb-girdle muscular dystrophy, type 2J|Distal myopathy Markesbery-Griggs type|Dilated cardiomyopathy 1G|not specified|Cardiovascular phenotype|not provided				PASS	het		22			
+2598541	188990344	G	A		Yes	COL3A1	missense	G261D	Sample1;unknown	Ehlers-Danlos syndrome, type 4|not provided			874.67;874.67	PASS;PASS	hom;hom		32;37			
+2645941	219055494	T	-		Yes	IHH	frameshift deletion	_317_	Sample1;unknown	not provided			52.83;52.83	PASS;PASS	het;het		12;32			
+2659596	227052395	C	-		Yes	COL4A4	frameshift deletion	_960_	Sample1	Benign familial hematuria			590.36	PASS	het		40			
+2671904	233760762	-	ACTCCTCG		Yes	UGT1A1	frameshift insertion	_159_	Sample1;unknown	Crigler Najjar syndrome, type 1			384.43;384.43	PASS;PASS	het;het		49;52			
+2723284	17975745	A	-		Yes	MGME1	frameshift deletion	_191_	Sample1;unknown	not specified			151.65;151.65	PASS;PASS	het;het		36;37			
+2774779	46725399	C	T		Yes	SLC2A10	synonymous	I121I	Sample1;unknown	not provided	0		592.19;592.19	PASS;PASS	het;het		52;46			
+2905466	17097910	G	A		Yes	IL17RA	missense	V93M	Sample1;unknown	Immunodeficiency 51	0		1804.55;1804.55	PASS;PASS	hom;hom		57;47			
+2933222	28699845	-	A		Yes	CHEK2	frameshift insertion	_334_	Sample1;unknown	not provided			170.57;170.57	PASS;PASS	het;het		48;36			
+2940565	33384293	-	AAT		Yes	LARGE	inframe insertion	_302_	Sample1;unknown	not provided			139.21;139.21	PASS;PASS	het;het		38;46			
+2949282	37983412	G	A		Yes	SOX10	stop gained	Q125*	Sample1;unknown	not provided			1451.75;1451.75	PASS;PASS	hom;hom		47;40			
+3001524	9923958	G	A		Yes	IL17RC	missense	G305S	Sample1;unknown	Candidiasis, familial, 9	0		297.93;297.93	PASS;PASS	het;het		28;22			
+3002176	10142102	G	T		Yes	VHL	synonymous	L85L	Sample1;unknown	Hereditary cancer-predisposing syndrome|not provided			646.09;646.09	PASS;PASS	het;het		53;49			
+3035829	30688511	G	A		Yes	TGFBR2	synonymous	Q508Q	Sample1;unknown	Loeys-Dietz syndrome 2			1724.79;1724.79	PASS;PASS	hom;hom		53;49			
+3045825	37012099	G	A		Yes	MLH1	missense	R226Q	Sample1;unknown	Hereditary nonpolyposis colon cancer|Hereditary cancer-predisposing syndrome|Lynch syndrome|Lynch syndrome II|not provided			466.13;466.13	PASS;PASS	het;het		50;45			
+3063257	49532219	-	CACCA		Yes	DAG1	frameshift insertion	_570_	Sample1;unknown	not provided			154.65;154.65	PASS;PASS	het;het		29;29			
+3064247	50366582	T	-		Yes	CACNA2D2	frameshift deletion	_886_	Sample1;unknown	Early infantile epileptic encephalopathy			175.69;175.69	PASS;PASS	het;het		30;32			
+3066050	52364681	-	CCTGC		Yes	DNAH1	frameshift insertion	_1763_	Sample1;unknown	not provided			193.02;193.02	PASS;PASS	het;het		35;51			
+3102105	72922258	-	TTT		Yes	GXYLT2	inframe insertion	_175_	Sample1;unknown	not provided			380.00;380.00	PASS;PASS	hom;het		23;41			
+3284915	179199156	A	G		Yes	PIK3CA	missense	K111E	Sample1;unknown	Neuroblastoma|Multiple myeloma|Lung adenocarcinoma|Neoplasm of brain|Neoplasm of the breast|Neoplasm of the large intestine|Squamous cell carcinoma of the head and neck|Uterine cervical neoplasms|Glioblastoma|Malignant neoplasm of body of uterus|Adenocarcinoma of stomach			1969.42;1969.42	PASS;PASS	hom;hom		58;57			
+3321910	1001742	T	C		Yes	IDUA	missense	L218P	Sample1;unknown	Mucopolysaccharidosis type I|Hurler syndrome|not provided	0		2280.58;2280.58	PASS;PASS	hom;hom		63;61			
+3334821	6301347	-	GT		Yes	WFS1	frameshift insertion	_518_	Sample1;unknown	not specified			278.52;278.52	PASS;PASS	hom;het		12;13			
+3397797	39459154	G	A		Yes	LIAS	missense	G13R	Sample1;unknown	Pyruvate dehydrogenase lipoic acid synthetase deficiency	0		584.60;584.60	PASS;PASS	het;het		52;51			
+3679848	224397	A	G		Yes	SDHA	missense	D63G	Sample1;unknown	Mitochondrial complex II deficiency|Paragangliomas 5			483.96;483.96	PASS;PASS	het;het		48;46			
+3683183	1214006	CCT	-		Yes	SLC6A19	inframe deletion	_276_	Sample1;unknown	not specified			841.12;841.12	PASS;PASS	het;het		60;58			
+3823765	80768046	C	T		Yes	MSH3	synonymous	T670T	Sample1;unknown	not provided	0		1865.68;1865.68	PASS;PASS	hom;hom		56;49			
+3839209	93585206	C	T		Yes	NR2F1	synonymous	P61P	Sample1;unknown	not specified	0		1991.25;1991.25	PASS;PASS	hom;hom		60;53			
+3868049	112842481	T	-		Yes	APC	frameshift deletion	_2296_	Sample1;unknown	Hereditary cancer-predisposing syndrome|Familial adenomatous polyposis 1			74.67;74.67	PASS;PASS	het;het		25;38			
+3868052	112842897	-	T		Yes	APC	frameshift insertion	_2435_	Sample1;unknown	Hereditary cancer-predisposing syndrome|Familial adenomatous polyposis 1			486.68;486.68	PASS;PASS	het;het		44;45			
+3894686	128345365	TG	-		Yes	FBN2	frameshift deletion	_1070_	Sample1;unknown	not provided			976.00;976.00	PASS;PASS	hom;het		29;39			
+3923732	149981158	C	T		Yes	SLC26A2	missense	S522F	Sample1;unknown	Multiple epiphyseal dysplasia 4			819.50;819.50	PASS;PASS	het;het		57;51			
+3925643	151110636	-	ACAC		Yes	ANXA6	frameshift insertion	_528_	Sample1	not provided			391.04	PASS	het		44			
+3961020	172339779	-	T		Yes	SH3PXD2B	frameshift insertion	_443_	Sample1;unknown	Frank Ter Haar syndrome			190.82;190.82	PASS;PASS	het;het		40;47			
+3969649	177211067	A	-		Yes	NSD1	frameshift deletion	_890_	Sample1;unknown	Inborn genetic diseases|not provided			117.76;117.76	PASS;PASS	het;het		50;66			
+4152025	98874318	C	T		Yes	FBXL4	missense	S609N	Sample1;unknown	Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type)	0		549.24;549.24	PASS;PASS	het;het		51;49			
+4152104	98917618	TGAG	-		Yes	FBXL4	frameshift deletion	_204_	Sample1;unknown	Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type)			367.81;367.81	PASS;PASS	het;het		37;41			
+4170655	109743151	C	T		Yes	FIG4	synonymous	C306C	Sample1;unknown	Charcot-Marie-Tooth disease type 4	0		413.58;413.58	PASS;PASS	het;het		45;43			
+4172805	111380136	-	T		Yes	REV3L	frameshift insertion	_434_	Sample1;unknown	not provided			51.88;51.88	PASS;PASS	het;het		21;39			
+4234042	152442129	C	T		Yes	SYNE1	synonymous	E1318E	Sample1;unknown	not provided	0		408.85;408.85	PASS;PASS	het;het		43;37			
+4234720	152756194	C	T		Yes	VIP	synonymous	D132D	Sample1;unknown	not provided	0		788.14;788.14	PASS;PASS	het;het		54;48			
+4263007	167137336	C	T		Yes	CCR6	missense	A369V	Sample1;unknown	not provided	0.005		387.18;387.18	PASS;PASS	het;het		47;44			
+4282630	2947649	-	A		Yes	CARD11	frameshift insertion	_49_	Sample1;unknown	B-cell expansion with NFKB and T-cell anergy			69.91;69.91	PASS;PASS	het;het		28;30			
+4291068	5977643	-	CA		Yes	PMS2	frameshift insertion	_797_	Sample1;unknown	Hereditary nonpolyposis colon cancer|not provided			244.23;244.23	PASS;PASS	het;het		46;53			
+4323704	21711860	C	T		Yes	DNAH11	missense	P2335L	Sample1;unknown	not provided	0		1749.85;1749.85	PASS;PASS	hom;hom		52;51			
+4323850	21779084	G	A		Yes	DNAH11	missense	A3162T	Sample1;unknown	Primary ciliary dyskinesia	0		756.80;756.80	PASS;PASS	het;het		54;52			
+4369975	48274554	C	G		Yes	ABCA13	missense	L1630V	Sample1;unknown	not provided	0.006		384.44;384.44	PASS;PASS	het;het		50;50			
+4470740	92513936	CACACA	-		Yes	PEX1	inframe deletion	_422_	Sample1;unknown	not provided			336.85;336.85	PASS;PASS	hom;het		27;46			
+4492769	105548668	A	-		Yes	RINT1	frameshift deletion	_318_	Sample1;unknown	not provided			932.73;932.73	PASS;PASS	het;hom		46;44			
+4565501	150950988	-	C		Yes	KCNH2	frameshift insertion	_693_	Sample1;unknown	Long QT syndrome|Inborn genetic diseases|Congenital long QT syndrome|not provided			733.05;733.05	PASS;PASS	hom;hom		26;24			
+4629745	11757055	A	-		Yes	GATA4	frameshift deletion	_373_	Sample1	Atrioventricular septal defect 4			477.26	PASS	het		23			
+4698434	48920302	T	-		Yes	SNAI2	frameshift deletion	_73_	Sample1;unknown	Partial albinism|Waardenburg syndrome			856.07;856.07	PASS;PASS	hom;hom		27;31			
+4718647	63061334	-	ATATAT		Yes	TTPA	inframe insertion	_252_	Sample1;unknown	not specified			338.78;338.78	PASS;PASS	het;het		48;59			
+4756538	89970474	G	T		Yes	NBN	missense	F262L	Sample1;unknown	Hereditary cancer-predisposing syndrome|Microcephaly, normal intelligence and immunodeficiency|not provided	0		1322.36;1322.36	PASS;PASS	hom;hom		38;37			
+4756539	89970513	A	T		Yes	NBN	synonymous	A249A	Sample1;unknown	not provided			1245.43;1245.43	PASS;PASS	hom;hom		39;34			
+4766024	96309607	A	-		Yes	PTDSS1	frameshift deletion	_353_	Sample1;unknown	Lenz-Majewski hyperostosis syndrome			237.34;237.34	PASS;PASS	het;het		46;46			
+4770907	99556476	G	A		Yes	VPS13B	missense	R1616Q	Sample1;unknown	Cohen syndrome	0		596.62;596.62	PASS;PASS	het;het		49;48			
+4771014	99853910	-	A		Yes	VPS13B	frameshift insertion	_3532_	Sample1;unknown	not specified|not provided			240.41;240.41	PASS;PASS	hom;het		18;20			
+4840872	143921083	G	A		Yes	PLEC	missense	P3050L	Sample1;unknown	Epidermolysis bullosa simplex, Ogna type|Epidermolysis bullosa simplex with pyloric atresia|Epidermolysa bullosa simplex and limb girdle muscular dystrophy|Limb-girdle muscular dystrophy, type 2Q|Epidermolysis bullosa simplex with nail dystrophy	0		387.70;387.70	PASS;PASS	het;het		53;45			
+4842541	144514017	T	-		Yes	RECQL4	frameshift deletion	_657_	Sample1;unknown	Baller-Gerold syndrome			211.43;211.43	PASS;PASS	het;het		42;37			
+4842549	144514974	AG	-		Yes	RECQL4	frameshift deletion	_527_	Sample1;unknown	not provided			609.70;609.70	PASS;PASS	het;het		37;34			
+4845798	154795	T	C		Yes	CBWD1	synonymous	R192R	Sample1;unknown	not provided	0.752		1168.56;1168.56	PASS;PASS	hom;hom		40;36			
+4846041	214804	A	G		Yes	C9orf66	missense	V198A	Sample1;unknown	not provided	0.148		642.48;642.48	PASS;PASS	het;het		53;46			
+4846042	214864	C	T		Yes	C9orf66	missense	R178Q	Sample1;unknown	Hyper-IgE syndrome|not provided	0.253		718.27;718.27	PASS;PASS	het;het		43;42			
+4846043	215057	T	C		Yes	C9orf66	missense	N114D	Sample1;unknown	not provided	0.554		396.44;396.44	PASS;PASS	het;het		39;37			
+4846536	421032	C	G		Yes	DOCK8	synonymous	L1369L	Sample1;unknown	Hyperimmunoglobulin E recurrent infection syndrome, autosomal recessive|not specified|Hyper-IgE syndrome	0.502		1687.48;1687.48	PASS;PASS	hom;hom		50;46			
+4846553	429719	T	C		Yes	DOCK8	synonymous	F1497F	Sample1;unknown	not specified	0.998		1787.01;1787.01	PASS;PASS	hom;hom		53;47			
+4846601	441952	G	A		Yes	DOCK8	synonymous	E1811E	Sample1;unknown	Hyperimmunoglobulin E recurrent infection syndrome, autosomal recessive|not specified|Hyper-IgE syndrome	0.818		1615.58;1615.58	PASS;PASS	hom;hom		50;47			
+4850525	2039827	G	A		Yes	SMARCA2	synonymous	P239P	Sample1;unknown	Nicolaides-Baraitser syndrome|History of neurodevelopmental disorder|not specified	0.027		548.11;548.11	PASS;PASS	het;het		37;36			
+4850537	2073292	A	G		Yes	SMARCA2	synonymous	P609P	Sample1;unknown	Nicolaides-Baraitser syndrome|History of neurodevelopmental disorder|not specified	0.12		1159.53;1159.53	PASS;PASS	het;het		66;60			
+4850719	2186224	C	T		Yes	SMARCA2	synonymous	S1530S	Sample1;unknown	Nicolaides-Baraitser syndrome|History of neurodevelopmental disorder|not specified	0.01		594.48;594.48	PASS;PASS	het;het		45;44			
+4852250	2717922	C	G		Yes	KCNV2	synonymous	G61G	Sample1;unknown	Cone dystrophy 3|not specified	0.615		1608.43;1608.43	PASS;PASS	hom;hom		48;38			
+4852251	2718534	C	G		Yes	KCNV2	synonymous	A265A	Sample1;unknown	Cone dystrophy 3|not specified	0.481		1238.22;1238.22	PASS;PASS	hom;hom		37;35			
+4854703	4118111	G	T		Yes	GLIS3	missense	P301Q	Sample1;unknown	Diabetes mellitus, neonatal, with congenital hypothyroidism|not specified	0.664		415.33;415.33	PASS;PASS	het;het		63;40			
+4854704	4118208	A	G		Yes	GLIS3	missense	S269P	Sample1;unknown	Diabetes mellitus, neonatal, with congenital hypothyroidism|not specified	1		1808.20;1808.20	PASS;PASS	hom;hom		54;51			
+4855887	4576680	T	C		Yes	SLC1A1	synonymous	T370T	Sample1;unknown	Dicarboxylic aminoaciduria	0.367		695.74;695.74	PASS;PASS	het;het		46;43			
+4857022	5050706	C	T		Yes	JAK2	synonymous	H163H	Sample1;unknown	Budd-Chiari syndrome|not specified	0.325		872.13;872.13	PASS;PASS	het;het		57;54			
+4857050	5081780	G	A		Yes	JAK2	synonymous	L830L	Sample1;unknown	Budd-Chiari syndrome|not specified	0.536		633.02;633.02	PASS;PASS	het;het		43;41			
+4859463	6589230	C	T		Yes	GLDC	synonymous	R515R	Sample1;unknown	Non-ketotic hyperglycinemia|not specified	0.022		480.46;480.46	PASS;PASS	het;het		31;29			
+4859501	6610326	C	T		Yes	GLDC	synonymous	E167E	Sample1;unknown	Non-ketotic hyperglycinemia|not specified|not provided	0.236		397.81;397.81	PASS;PASS	het;het		40;32			
+4915660	35091880	C	T		Yes	PIGO	stop gained	W669*	Sample1;unknown	Hyperphosphatasia with mental retardation syndrome 2			459.08;459.08	PASS;PASS	het;het		56;51			
+4916433	35683241	-	G		Yes	TPM2	frameshift insertion	_258_	Sample1;unknown	not provided			427.29;427.29	PASS;PASS	het;het		55;43			
+5021647	95449135	-	T		Yes	PTCH1	frameshift insertion	_1247_	Sample1;unknown	Gorlin syndrome			296.08;296.08	PASS;PASS	het;het		34;38			
+5021682	95467334	-	A		Yes	PTCH1	frameshift insertion	_781_	Sample1;unknown	Gorlin syndrome			324.18;324.18	PASS;PASS	het;het		43;43			
+5021685	95468981	C	T		Yes	PTCH1	missense	V674M	Sample1;unknown	Gorlin syndrome	0		1542.77;1542.77	PASS;PASS	hom;hom		44;42			
+5073267	127492835	-	T		Yes	LRSAM1	frameshift insertion	_513_	Sample1	Charcot-Marie-Tooth disease type 2P				PASS	het		50			
+5079384	131506217	G	A		Yes	POMT1	missense	G76R	Sample1;unknown	Muscular dystrophy-dystroglycanopathy (congenital with brain and eye anomalies), type A, 1			990.79;990.79	PASS;PASS	hom;hom		36;30			
+5079393	131512122	A	G		Yes	POMT1	synonymous	V378V	Sample1;unknown	Walker-Warburg congenital muscular dystrophy|Limb-girdle muscular dystrophy-dystroglycanopathy, type C1|Congenital muscular dystrophy-dystroglycanopathy with mental retardation, type B1	0		1889.34;1889.34	PASS;PASS	hom;hom		56;51			
+5090193	136508932	G	C		Yes	NOTCH1	missense	Q1037E	Sample1;unknown	Adams-Oliver syndrome 5			1659.25;1659.25	PASS;PASS	hom;hom		48;44			
+5090228	136515674	-	TT		Yes	NOTCH1	frameshift insertion	_571_	Sample1	Thoracic aortic aneurysm and aortic dissection				PASS	het		30			
+5193811	100408289	-	T		Yes	PCDH19	frameshift insertion	_104_	Sample1;unknown	not specified			610.02;610.02	PASS;PASS	hom;hom		22;28			
+5207311	118773934	-	T		Yes	IL13RA1	frameshift insertion	_355_	Sample1;unknown	not provided			628.79;628.79	PASS;PASS	hom;hom		26;27			
+5237816	153740576	AAG	-		Yes	ABCD1	inframe deletion	_546_	Sample1	Adrenoleukodystrophy			605.77	PASS	het		14			
