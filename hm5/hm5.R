@@ -1,4 +1,6 @@
-csv_input = read.csv('bioinformatics/hm5/p05pvalues.tsv', header = T, sep='\t')
+args=commandArgs(T)
+
+csv_input = read.csv(args[2], header = T, sep='\t')
 
 df = as.data.frame(csv_input)
 
@@ -14,4 +16,4 @@ for (i in 1:length(df$pvalue)){
   }
 }
 
-write.table(df, file = './new3.txt', sep= '\t',quote = FALSE, row.names = FALSE, col.names = TRUE)
+write.table(df, file = args[4], sep= '\t',quote = FALSE, row.names = FALSE, col.names = TRUE)
